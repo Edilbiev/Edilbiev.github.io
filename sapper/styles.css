@@ -1,0 +1,37 @@
+.empty, .filled {
+    width: 40px;
+    height: 40px;
+    border: 1px solid green;
+    margin: 5px;
+    cursor: pointer;
+}
+.filled {
+    background-color: darkblue;
+}
+.board {
+    height:170px;
+    width: 170px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+}
+.counter {
+    font-size: 20px;
+    color: green;
+    text-align: center;
+}
+.restart {
+    background-color: white;
+    color: darkblue;
+    border: 1px solid darkblue;
+    padding: 6px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.hide {
+    display: none;
+}
+.show {
+    display: flex;
+    justify-content: center;
+}
