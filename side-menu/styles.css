@@ -1,0 +1,70 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+ul {
+    padding: 0px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #1976D2;
+    padding: 20px;
+}
+
+.header a {
+    color: white;
+}
+
+.icon {
+    font-size: 20px;
+    padding-left: 10px;
+}
+
+.nav a {
+    margin-right: 30px;
+}
+
+.saidbar, .saidbarHidden {
+    background-color: #E9EBEC;
+    width:20%;
+    margin: 0px;
+    padding: 50px 15px;
+    transition: .2s;
+}
+
+.saidbarHidden {
+    width: 0%;
+    overflow: hidden;
+    transition: .2s;
+    padding: 0px;
+}
+
+.saidbar li{
+    margin-bottom:40px;
+    padding-left: 20px;
+    list-style: none;
+}
+
+.saidbar li a {
+    color: grey;
+}
+
+.content {
+    display: flex;
+}
+
+.text, .textSplitted {
+    color: grey;
+    padding: 30px;
+    width: 80%;
+}
+
+.textSplitted {
+    width:100%
+}
