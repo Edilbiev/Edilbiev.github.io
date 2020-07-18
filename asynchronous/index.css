@@ -1,0 +1,51 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: lightblue;
+}
+
+.title {
+    font-size: 23px;
+    text-align: center;
+    color: white;
+    padding: 15px;
+}
+
+.commentsbox {
+    width: 70%;
+    margin: auto;
+    background-color: lightslategrey;
+    color: white;
+    border-radius: 10px;
+}
+
+.email {
+    text-align: center;
+    padding: 4px;
+}
+
+.text {
+    display: flex;
+}
+
+.comment {
+    padding: 10px;
+    border-bottom: 1px solid lightblue;
+}
+
+.loading {
+    padding: 30px;
+}
+
+.deleting {
+    
+}
+
+.button {
+    border: none;
+    background-color: lightcoral;
+    color: white;
+    border-radius: 3px;
+    margin-left: 6px;
+    font-size: 17px;
+    cursor: pointer;
+}
