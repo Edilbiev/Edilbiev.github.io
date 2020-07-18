@@ -11,6 +11,7 @@ body {
 }
 
 .commentsbox {
+    text-align: center;
     width: 70%;
     margin: auto;
     background-color: lightslategrey;
@@ -19,12 +20,13 @@ body {
 }
 
 .email {
-    text-align: center;
     padding: 4px;
 }
 
 .text {
     display: flex;
+    justify-content: space-between;
+    text-align: start;
 }
 
 .comment {
@@ -36,10 +38,6 @@ body {
     padding: 30px;
 }
 
-.deleting {
-    
-}
-
 .button {
     border: none;
     background-color: lightcoral;
@@ -48,4 +46,5 @@ body {
     margin-left: 6px;
     font-size: 17px;
     cursor: pointer;
+    height: 40px;
 }
