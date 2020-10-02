@@ -10,6 +10,7 @@
       body {
         font-family: 'Open Sans', sans-serif;
         min-width: 600px;
+        margin: 0;
       }
 
         .background {
@@ -131,11 +132,20 @@
         }
 
       @media only screen and (max-width: 420px) {
+
+        body{
+          min-width: 0;
+        }
         .background {
           background-size: cover;
         }
         .header-name {
           display: none;
+        }
+
+        .header-user-data {
+          padding: 0;
+          padding-left: 10px;
         }
 
         .header-avatar {
@@ -151,6 +161,10 @@
           height: 19px;
         }
 
+        .profile {
+          padding: 16px 10px;
+        }
+
         .profile-title h2 {
           font-size: 14px;
         }
@@ -162,6 +176,7 @@
         .profile-avatar {
           min-width: 40px;
           height: 40px;
+          margin-right: 10px;
         }
 
         .profile h1 {
@@ -179,6 +194,7 @@
 
         .profile-menu-item {
           padding: 22px 0;
+          font-size: 14px;
         }
       }
         
@@ -223,10 +239,6 @@
                 <img src="svg/call-black-24dp.svg" alt="phone"> Укажите номер телефона
             </div>
         </div>
-        <a href="index.html">1 страница</a>
-        <a href="index2.html">1 страница</a>
-        <a href="index3.html">1 страница</a>
-        <a href="index4.html">1 страница</a>
     </div>
 </body>
 </html>
