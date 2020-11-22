@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/axeta-test2/static/css/main.6444b8e0.chunk.css",
-    "main.js": "/axeta-test2/static/js/main.ec0be011.chunk.js",
-    "main.js.map": "/axeta-test2/static/js/main.ec0be011.chunk.js.map",
+    "main.js": "/axeta-test2/static/js/main.8b2feaeb.chunk.js",
+    "main.js.map": "/axeta-test2/static/js/main.8b2feaeb.chunk.js.map",
     "runtime-main.js": "/axeta-test2/static/js/runtime-main.f0838974.js",
     "runtime-main.js.map": "/axeta-test2/static/js/runtime-main.f0838974.js.map",
     "static/js/2.1799e7d8.chunk.js": "/axeta-test2/static/js/2.1799e7d8.chunk.js",
@@ -16,6 +16,6 @@
     "static/js/runtime-main.f0838974.js",
     "static/js/2.1799e7d8.chunk.js",
     "static/css/main.6444b8e0.chunk.css",
-    "static/js/main.ec0be011.chunk.js"
+    "static/js/main.8b2feaeb.chunk.js"
   ]
 }
