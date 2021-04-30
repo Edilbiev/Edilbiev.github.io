@@ -1,0 +1,40 @@
+{
+  "files": {
+    "main.css": "./static/css/main.3db3bd21.chunk.css",
+    "main.js": "./static/js/main.0791647e.chunk.js",
+    "main.js.map": "./static/js/main.0791647e.chunk.js.map",
+    "runtime-main.js": "./static/js/runtime-main.554fae45.js",
+    "runtime-main.js.map": "./static/js/runtime-main.554fae45.js.map",
+    "static/css/2.70c372c2.chunk.css": "./static/css/2.70c372c2.chunk.css",
+    "static/js/2.9a2fe091.chunk.js": "./static/js/2.9a2fe091.chunk.js",
+    "static/js/2.9a2fe091.chunk.js.map": "./static/js/2.9a2fe091.chunk.js.map",
+    "index.html": "./index.html",
+    "static/css/2.70c372c2.chunk.css.map": "./static/css/2.70c372c2.chunk.css.map",
+    "static/css/main.3db3bd21.chunk.css.map": "./static/css/main.3db3bd21.chunk.css.map",
+    "static/js/2.9a2fe091.chunk.js.LICENSE.txt": "./static/js/2.9a2fe091.chunk.js.LICENSE.txt",
+    "static/media/Rectangle.7088d9c1.svg": "./static/media/Rectangle.7088d9c1.svg",
+    "static/media/appstore.9a594049.svg": "./static/media/appstore.9a594049.svg",
+    "static/media/barashka.66b732eb.jpg": "./static/media/barashka.66b732eb.jpg",
+    "static/media/family.dcd2874e.jpg": "./static/media/family.dcd2874e.jpg",
+    "static/media/food1.3d07183e.jpg": "./static/media/food1.3d07183e.jpg",
+    "static/media/food2.28b648aa.jpg": "./static/media/food2.28b648aa.jpg",
+    "static/media/food3.1bf8d618.jpg": "./static/media/food3.1bf8d618.jpg",
+    "static/media/food4.8ee74509.jpg": "./static/media/food4.8ee74509.jpg",
+    "static/media/instagram.a7ff45a3.svg": "./static/media/instagram.a7ff45a3.svg",
+    "static/media/Menu.module.scss": "./static/media/menu.006bc5d8.jpg",
+    "static/media/playmarket.24e4d206.svg": "./static/media/playmarket.24e4d206.svg",
+    "static/media/prospect.df2e636a.jpg": "./static/media/prospect.df2e636a.jpg",
+    "static/media/veranda.d7e6bac3.jpg": "./static/media/veranda.d7e6bac3.jpg",
+    "static/media/waiter.1a782016.jpg": "./static/media/waiter.1a782016.jpg",
+    "static/media/wasabi.63fd6692.jpg": "./static/media/wasabi.63fd6692.jpg",
+    "static/media/whatsapp.3f9dcb8a.svg": "./static/media/whatsapp.3f9dcb8a.svg",
+    "static/media/wifi.b8ea9208.svg": "./static/media/wifi.b8ea9208.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.554fae45.js",
+    "static/css/2.70c372c2.chunk.css",
+    "static/js/2.9a2fe091.chunk.js",
+    "static/css/main.3db3bd21.chunk.css",
+    "static/js/main.0791647e.chunk.js"
+  ]
+}
