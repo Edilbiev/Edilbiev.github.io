@@ -2,6 +2,9 @@
   --goji-before-opacity: 1;
   --goji-medium-opacity: 0;
   --goji-premium-opacity: 0;
+  --goji-before-score-opacity: 1;
+  --goji-medium-score-opacity: 0;
+  --goji-premium-score-opacity: 0;
   --goji-text-height: 103px;
   --goji-text-opacity: 1;
   --goji-text-mb: 33px;
@@ -70,7 +73,7 @@ div {
 .goji-text-box {
   position: absolute;
   top: 95px;
-  width: 433px;
+  width: 420px;
   left: 123px;
   z-index: 5;
   background: rgba(255, 255, 255, 0.25);
@@ -124,11 +127,29 @@ div {
   border-radius: 50%;
   background-color: #4b4a46;
   color: #f2f3ee;
-  border: 3px solid #f2f3ee;
+  border: 1px solid #f2f3ee;
   text-align: center;
   font-size: 48px;
   line-height: 86px;
   font-family: Montserrat, sans-serif;
+  position: relative;
+}
+
+.goji-shine-score div {
+  position: absolute;
+  transition: 0.3s;
+  width: 30px;
+  left: 28px;
+}
+
+.goji-score-before {
+  opacity: var(--goji-before-score-opacity);
+}
+.goji-score-medium {
+  opacity: var(--goji-medium-score-opacity);
+}
+.goji-score-premium {
+  opacity: var(--goji-premium-score-opacity);
 }
 
 .goji-input-wrapper {

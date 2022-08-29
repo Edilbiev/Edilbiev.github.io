@@ -24,7 +24,11 @@
       <div class="goji-text-box">
         <div class="goji-shine-score-heading">
           Shine score
-          <div class="goji-shine-score" id="goji-score"></div>
+          <div class="goji-shine-score">
+            <div class="goji-score-before">1</div>
+            <div class="goji-score-medium">5</div>
+            <div class="goji-score-premium">9</div>
+          </div>
         </div>
         <div class="goji-text-box-inner">
           <div class="goji-heading">Masters of Polishing</div>
@@ -51,49 +55,5 @@
     </div>
   </body>
 
-  <script>
-    const slider = document.getElementById("goji-bar");
-    const score = document.getElementById("goji-score");
-    const anchor = document.getElementById("goji-link");
-    const url = new URL("https://localhost:8080");
-    url.searchParams.append("goBackUrl", window.location.href);
-
-    anchor.href = url;
-    score.innerHTML = 1;
-
-    const root = document.documentElement;
-
-    slider.oninput = function () {
-      const value = ((this.value - this.min) / (this.max - this.min)) * 100;
-      this.style.background =
-        "linear-gradient(to right, #DADCDE 0%, #004077 " +
-        value +
-        "%, #97999b " +
-        value +
-        "%,  #97999b 100%)";
-
-      if (this.value < 100) {
-        score.innerHTML = 1;
-        root.style.setProperty("--goji-before-opacity", 1);
-        root.style.setProperty("--goji-premium-opacity", 0);
-        root.style.setProperty("--goji-medium-opacity", this.value / 100);
-      } else if (this.value > 190) {
-        score.innerHTML = 9;
-      } else {
-        score.innerHTML = 5;
-        root.style.setProperty("--goji-before-opacity", 0);
-        root.style.setProperty("--goji-medium-opacity", 2 - this.value / 100);
-        root.style.setProperty("--goji-premium-opacity", 1);
-      }
-      if (this.value > 10) {
-        root.style.setProperty("--goji-text-height", "0");
-        root.style.setProperty("--goji-text-mb", "0");
-        root.style.setProperty("--goji-text-opacity", "0");
-      } else {
-        root.style.setProperty("--goji-text-height", "103px");
-        root.style.setProperty("--goji-text-mb", "33px");
-        root.style.setProperty("--goji-text-opacity", "1");
-      }
-    };
-  </script>
+  <script src="index.js"></script>
 </html>
